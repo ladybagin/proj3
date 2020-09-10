@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+           
+           margin: 0 auto;
+           width:1000px;
+           height:900px;
+            border: 1px solid red;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+           width: 800px;
+            animation: a3 3s;
+
+        }
+        @keyframes a3 {
+            from {
+                opacity: 0;
+                transform: scale(0, 0) ;
+                
+            }
+            to {
+                opacity: 1;
+                transform: scale(3, 3) rotate(720deg);
+         
+            }
+
+        }
+    </style>
+</head>
+<body>
+   <div><img src="ньюйорк.jpg"></div>
+
+</body>
+</html>
